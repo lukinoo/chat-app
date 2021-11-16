@@ -10,11 +10,10 @@
 
 body {
     background: #fff;
+    height: 100vh;
 }
 
-.App {
-    height: 100vh;
-    header {
+header {
   height: 12vh;
   width: 100%;
   display: flex;
@@ -176,7 +175,6 @@ form {
           color: #9e9d9d;
       }
   }
-}
 }
 
 .sent {
