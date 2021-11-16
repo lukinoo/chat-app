@@ -8,9 +8,7 @@ const SignIn = () => {
             .then((re) => {
                 console.log(re)
             })
-            .catch((err) => {
-                console.log(err);
-            })
+            .catch((error) => alert(error.message));
     }
 
     return (
