@@ -11,6 +11,7 @@
 
 body {
   background: #fff;
+  height: 100vh;
 }
 
 header {
@@ -24,7 +25,7 @@ header {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   z-index: 99;
@@ -190,7 +191,7 @@ header .sign-out {
 }
 
 form {
-  position: absolute;
+  position: fixed;
   bottom: 0;
   left: 0;
   width: 100%;
