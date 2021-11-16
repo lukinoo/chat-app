@@ -3,11 +3,7 @@ import './styles/main.css';
 import Header from "./components/Header";
 import Section from "./components/Section";
 import ChatForm from "./components/ChatForm";
-// import db from './components/firebase';
 import SignIn from './components/SignIn';
-// import { db } from './Firebase/firebase';
-// import { firebase } from '../Firebase/firebase';
-// import firebase from 'firebase/app';
 import firebase from "firebase/app";
 import "firebase/firestore";
 import '@firebase/auth';
@@ -52,7 +48,7 @@ function App() {
       text: input,
       timestamp: firebase.firestore.FieldValue.serverTimestamp(),
       uid,
-      photoURL
+      photoURL,
     })
 
     setInput("");

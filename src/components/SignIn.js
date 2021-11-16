@@ -15,8 +15,10 @@ const SignIn = () => {
 
     return (
         <div className="sign-in-page">
-            <h3>Luka's test web Chat App 🥳</h3>
-            <button onClick={SignInWithFirebase} className="sign-in">Sign In</button>
+            <h3>🔥 Luka's test Chat App 🥳</h3>
+            <button onClick={SignInWithFirebase} className="sign-in">
+                Sign In
+            </button>
         </div>
     )
 }
